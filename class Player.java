@@ -4,12 +4,10 @@
      number = (int) (Math.random() * 6);
      System.out.println("turn on" + number);
    }
-   public int getNum() {
+   public int getNum() {         \\ê¸°ì¡´ class Diceì—ì„œ public int getNum()ë¥¼ ì¶”ê°€í•˜ì—¬ Playerì™€ ì—°ë™
      return this.number;
    }
  }
-
-\±âÁ¸ class Dice¿¡¼­ public int getNum()¸¦ Ãß°¡ÇÏ¿© Player¿Í ¿¬µ¿
 
  class Player {
    private String name=null;
